@@ -107,7 +107,15 @@
   function playSong() {
     var mp3Url = 'music-cafe_recall-etota-valobasi.mp3';
     var audio = new Audio(mp3Url);
-    audio.play();
+    audio.load(); // Load the file first
+
+    audio.play().then(() => {
+        console.log("Playing audio...");
+    }).catch(error => {
+        console.log("Playback failed: " + error);
+        alert("Click again if the song doesn't play.");
+    });
+
     alert("Yes, I love you, Kyotto mam!❤️");
   }
 
