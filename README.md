@@ -11,6 +11,3 @@ Inside this repository, you'll find all the code you need to create your own Val
 So go ahead, fork this repo, and let your creativity shine! Share the love with the world and make this Valentine's Day one to remember.
 
 Wishing you a day filled with love, laughter, and lots of GitHub stars. ⭐️
-
-With love,
-[Raw.9k]
